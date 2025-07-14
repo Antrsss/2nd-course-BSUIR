@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LAB_1_MAUI.CurrencyConverter"
+             Title="CurrencyConverter">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+
+            <Label Text="Дата курса:"/>
+            <DatePicker x:Name="datePicker"
+                        DateSelected="OnDateChanged"/>
+
+            <Label Text="Валюты:"/>
+            <CollectionView
+                x:Name="currencyCollection"/>
+
+
+            <Label Text="Валюта для перевода:"/>
+            <Picker x:Name="currencyPicker"
+                    ItemDisplayBinding="{Binding Cur_Name}"
+                    SelectedIndexChanged="OnCurrencyChanged"/>
+
+            <Label Text="Направление конвертации:"/>
+            <VerticalStackLayout Spacing="10">
+
+                <RadioButton
+                    x:Name="fromBYN"
+                    GroupName="convertionDirection"
+                    Content="Из белорусских рублей"
+                    CheckedChanged="OnDirectionChanged"/>
+
+                <RadioButton
+                    x:Name="toBYN"
+                    GroupName="convertionDirection"
+                    Content="В белорусские рубли"
+                    CheckedChanged="OnDirectionChanged"/>
+            </VerticalStackLayout>
+
+            <Label Text="Сумма:"/>
+            <Entry x:Name="amountEntry" Keyboard="Numeric" 
+                   TextChanged="OnAmountChanged"/>
+
+            <Label Text="Результат:" FontAttributes="Bold"/>
+            <Label x:Name="resultLabel" FontSize="Large"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

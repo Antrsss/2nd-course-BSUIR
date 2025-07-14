@@ -1,0 +1,60 @@
+fun main() {
+    var result = 0
+    for (i in 0..x) {
+        for (j in 0..y) {
+            if (i % 2 == 0) {
+                for (k in 0..i) {
+                    when (k) {
+                        0 -> result += 1
+                        1 -> result += 2
+                        else -> result += 3
+                    }
+                 }
+             } else {
+                 for (k in 0..j) {
+                     if (k % 2 == 0) {
+                         result += 4
+                     } else {
+                         result += 5
+                     }
+                 }
+             }
+         }
+     }
+
+    val maxBranchingCode = extractMaxBranchingCode(code)
+    println("Часть кода с максимальным количеством ветвлений:\n$maxBranchingCode")
+}
+
+fun extractMaxBranchingCode(code: String): String {
+    val lines = code.lines()
+    var maxBranchingCount = 0
+    var maxBranchingStart = 0
+    var maxBranchingEnd = 0
+
+    var currentBranchingCount = 0
+    var inNestedBlock = false
+
+    for (i in lines.indices) {
+        val line = lines[i]
+        currentBranchingCount += line.count { it == '{' } // Учитываем открывающие скобки
+        currentBranchingCount -= line.count { it == '}' } // Учитываем закрывающие скобки
+
+        if (line.contains("if") || line.contains("when") || line.contains("for") || line.contains("while")) {
+            if (!inNestedBlock) {
+                inNestedBlock = true
+                if (currentBranchingCount > maxBranchingCount) {
+                    maxBranchingCount = currentBranchingCount
+                    maxBranchingStart = i
+                }
+            }
+        }
+
+        if (inNestedBlock && currentBranchingCount == 0) {
+            inNestedBlock = false
+            maxBranchingEnd = i
+        }
+    }
+
+    return lines.subList(maxBranchingStart, maxBranchingEnd + 1).joinToString("\n")
+}

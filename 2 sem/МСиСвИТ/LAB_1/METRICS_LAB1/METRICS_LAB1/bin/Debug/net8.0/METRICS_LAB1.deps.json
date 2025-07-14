@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "METRICS_LAB1/1.0.0": {
+        "runtime": {
+          "METRICS_LAB1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "METRICS_LAB1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\obj\Debug\net8.0\METRICS_LAB1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\obj\Debug\net8.0\METRICS_LAB1.AssemblyInfoInputs.cache
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\obj\Debug\net8.0\METRICS_LAB1.AssemblyInfo.cs
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\obj\Debug\net8.0\METRICS_LAB1.csproj.CoreCompileInputs.cache
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\bin\Debug\net8.0\METRICS_LAB1.exe
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\bin\Debug\net8.0\METRICS_LAB1.deps.json
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\bin\Debug\net8.0\METRICS_LAB1.runtimeconfig.json
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\bin\Debug\net8.0\METRICS_LAB1.dll
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\bin\Debug\net8.0\METRICS_LAB1.pdb
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\obj\Debug\net8.0\METRICS_LAB1.dll
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\obj\Debug\net8.0\refint\METRICS_LAB1.dll
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\obj\Debug\net8.0\METRICS_LAB1.pdb
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\obj\Debug\net8.0\METRICS_LAB1.genruntimeconfig.cache
+C:\Users\zgdas\2 курс\2 сем\МСиСвИТ\LAB_1\METRICS_LAB1\METRICS_LAB1\obj\Debug\net8.0\ref\METRICS_LAB1.dll

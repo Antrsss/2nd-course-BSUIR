@@ -1,0 +1,107 @@
+@startuml
+' https://plantuml.com/state-diagram
+
+[*] --> Start
+
+state Start {
+    [*] --> OpenApplication
+    OpenApplication --> Authenticated : Is user authenticated?
+    OpenApplication --> WelcomeScreen : Not authenticated
+}
+
+state WelcomeScreen {
+    [*] --> ShowWelcomeScreen
+    ShowWelcomeScreen --> Register : User chooses to register
+    ShowWelcomeScreen --> Login : User chooses to login
+}
+
+state Register {
+    [*] --> EnterRegistrationDetails
+    EnterRegistrationDetails --> CallRegisterUser : Call UserViewModel.registerUser
+    CallRegisterUser --> UserProfile : Navigate to user profile
+}
+
+state Login {
+    [*] --> EnterLoginDetails
+    EnterLoginDetails --> CallAuthorizeUser : Call UserViewModel.authorizeUser
+    CallAuthorizeUser --> UserProfile : Login successful
+    CallAuthorizeUser --> ShowLoginError : Login failed
+}
+
+state UserProfile {
+    [*] --> ViewProfileInfo
+    ViewProfileInfo --> EditProfile : User chooses to edit profile
+    EditProfile --> EditName : Edit name
+    EditProfile --> EditBio : Edit bio
+    EditProfile --> EditWebsite : Edit website
+    EditProfile --> ChangePrivacy : Change privacy
+
+    state EditName {
+        [*] --> EditNameDetails
+        EditNameDetails --> CallEditName : Call UserViewModel.editName
+    }
+
+    state EditBio {
+        [*] --> EditBioDetails
+        EditBioDetails --> CallEditBio : Call UserViewModel.editBio
+    }
+
+    state EditWebsite {
+        [*] --> EditWebsiteDetails
+        EditWebsiteDetails --> CallEditWebsite : Call UserViewModel.editWebsite
+    }
+
+    state ChangePrivacy {
+        [*] --> ChangePrivacyDetails
+        ChangePrivacyDetails --> CallChangePrivacy : Call UserViewModel.changePrivacy
+    }
+}
+
+state Posts {
+    [*] --> ViewPostOptions
+    ViewPostOptions --> CreatePost : Create post
+    ViewPostOptions --> LikePost : Like post
+    ViewPostOptions --> CommentPost : Add comment
+
+    state CreatePost {
+        [*] --> EnterPostDetails
+        EnterPostDetails --> CallCreatePost : Call PostViewModel.createPost
+    }
+
+    state LikePost {
+        [*] --> SelectPost
+        SelectPost --> CallLikePost : Call PostViewModel.likePost
+    }
+
+    state CommentPost {
+        [*] --> WriteComment
+        WriteComment --> CallCreateComment : Call CommentViewModel.createComment
+    }
+}
+
+state Stories {
+    [*] --> ViewStoryOptions
+    ViewStoryOptions --> CreateStory : Create story
+    ViewStoryOptions --> LikeStory : Like story
+
+    state CreateStory {
+        [*] --> UploadStoryPhoto
+        UploadStoryPhoto --> CallCreateStory : Call StoryViewModel.createStory
+    }
+
+    state LikeStory {
+        [*] --> SelectStory
+        SelectStory --> CallAddLike : Call StoryViewModel.addLike
+    }
+}
+
+state UserContinues {
+    [*] --> ContinueUsingApp
+}
+
+UserProfile --> Posts : Create post / Like post / Add comment
+UserProfile --> Stories : Create story / Like story
+Posts --> UserContinues : Continue using the app
+Stories --> UserContinues : Continue using the app
+
+@enduml

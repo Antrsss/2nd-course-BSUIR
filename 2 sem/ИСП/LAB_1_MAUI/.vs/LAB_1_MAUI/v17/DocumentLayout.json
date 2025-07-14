@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|c:\\users\\zgdas\\source\\repos\\lab_1_maui\\lab_1_maui\\lab_3\\services\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|solutionrelative:lab_1_maui\\lab_3\\services\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|c:\\users\\zgdas\\source\\repos\\lab_1_maui\\lab_1_maui\\lab_3\\entities\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|solutionrelative:lab_1_maui\\lab_3\\entities\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|c:\\users\\zgdas\\source\\repos\\lab_1_maui\\lab_1_maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|solutionrelative:lab_1_maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|c:\\users\\zgdas\\source\\repos\\lab_1_maui\\lab_1_maui\\teamlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|solutionrelative:lab_1_maui\\teamlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|c:\\users\\zgdas\\source\\repos\\lab_1_maui\\lab_1_maui\\teamlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|solutionrelative:lab_1_maui\\teamlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|c:\\users\\zgdas\\source\\repos\\lab_1_maui\\lab_1_maui\\currencyconverter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|solutionrelative:lab_1_maui\\currencyconverter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|c:\\users\\zgdas\\source\\repos\\lab_1_maui\\lab_1_maui\\currencyconverter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|solutionrelative:lab_1_maui\\currencyconverter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|c:\\users\\zgdas\\source\\repos\\lab_1_maui\\lab_1_maui\\lab_3\\entities\\rates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|solutionrelative:lab_1_maui\\lab_3\\entities\\rates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|c:\\users\\zgdas\\source\\repos\\lab_1_maui\\lab_1_maui\\lab_3\\services\\sqliteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|solutionrelative:lab_1_maui\\lab_3\\services\\sqliteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|c:\\users\\zgdas\\source\\repos\\lab_1_maui\\lab_1_maui\\lab_3\\services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|solutionrelative:lab_1_maui\\lab_3\\services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|c:\\users\\zgdas\\source\\repos\\lab_1_maui\\lab_1_maui\\lab_3\\services\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFED44D7-1508-4AA1-97F9-7441426CC66B}|LAB_1_MAUI\\LAB_1_MAUI.csproj|solutionrelative:lab_1_maui\\lab_3\\services\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CurrencyConverter.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\CurrencyConverter.xaml.cs",
+              "RelativeDocumentMoniker": "LAB_1_MAUI\\CurrencyConverter.xaml.cs",
+              "ToolTip": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\CurrencyConverter.xaml.cs",
+              "RelativeToolTip": "LAB_1_MAUI\\CurrencyConverter.xaml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:02:52.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CurrencyConverter.xaml",
+              "DocumentMoniker": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\CurrencyConverter.xaml",
+              "RelativeDocumentMoniker": "LAB_1_MAUI\\CurrencyConverter.xaml",
+              "ToolTip": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\CurrencyConverter.xaml",
+              "RelativeToolTip": "LAB_1_MAUI\\CurrencyConverter.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T10:02:35.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RateService.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Services\\RateService.cs",
+              "RelativeDocumentMoniker": "LAB_1_MAUI\\Lab_3\\Services\\RateService.cs",
+              "ToolTip": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Services\\RateService.cs",
+              "RelativeToolTip": "LAB_1_MAUI\\Lab_3\\Services\\RateService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:11:01.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "LAB_1_MAUI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\MauiProgram.cs",
+              "RelativeToolTip": "LAB_1_MAUI\\MauiProgram.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:17:24.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeamList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\TeamList.xaml.cs",
+              "RelativeDocumentMoniker": "LAB_1_MAUI\\TeamList.xaml.cs",
+              "ToolTip": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\TeamList.xaml.cs",
+              "RelativeToolTip": "LAB_1_MAUI\\TeamList.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:33:35.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeamList.xaml",
+              "DocumentMoniker": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\TeamList.xaml",
+              "RelativeDocumentMoniker": "LAB_1_MAUI\\TeamList.xaml",
+              "ToolTip": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\TeamList.xaml",
+              "RelativeToolTip": "LAB_1_MAUI\\TeamList.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T09:33:30.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Rates.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Entities\\Rates.cs",
+              "RelativeDocumentMoniker": "LAB_1_MAUI\\Lab_3\\Entities\\Rates.cs",
+              "ToolTip": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Entities\\Rates.cs",
+              "RelativeToolTip": "LAB_1_MAUI\\Lab_3\\Entities\\Rates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:11:12.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SQLiteService.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Services\\SQLiteService.cs",
+              "RelativeDocumentMoniker": "LAB_1_MAUI\\Lab_3\\Services\\SQLiteService.cs",
+              "ToolTip": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Services\\SQLiteService.cs",
+              "RelativeToolTip": "LAB_1_MAUI\\Lab_3\\Services\\SQLiteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:11:03.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Participant.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Entities\\Participant.cs",
+              "RelativeDocumentMoniker": "LAB_1_MAUI\\Lab_3\\Entities\\Participant.cs",
+              "ToolTip": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Entities\\Participant.cs",
+              "RelativeToolTip": "LAB_1_MAUI\\Lab_3\\Entities\\Participant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:18:29.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRateService.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Services\\IRateService.cs",
+              "RelativeDocumentMoniker": "LAB_1_MAUI\\Lab_3\\Services\\IRateService.cs",
+              "ToolTip": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Services\\IRateService.cs",
+              "RelativeToolTip": "LAB_1_MAUI\\Lab_3\\Services\\IRateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:10:57.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDbService.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Services\\IDbService.cs",
+              "RelativeDocumentMoniker": "LAB_1_MAUI\\Lab_3\\Services\\IDbService.cs",
+              "ToolTip": "C:\\Users\\zgdas\\source\\repos\\LAB_1_MAUI\\LAB_1_MAUI\\Lab_3\\Services\\IDbService.cs",
+              "RelativeToolTip": "LAB_1_MAUI\\Lab_3\\Services\\IDbService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:10:55.659Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

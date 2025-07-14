@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAB_1_MAUI", "LAB_1_MAUI\LAB_1_MAUI.csproj", "{CFED44D7-1508-4AA1-97F9-7441426CC66B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFED44D7-1508-4AA1-97F9-7441426CC66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFED44D7-1508-4AA1-97F9-7441426CC66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFED44D7-1508-4AA1-97F9-7441426CC66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFED44D7-1508-4AA1-97F9-7441426CC66B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

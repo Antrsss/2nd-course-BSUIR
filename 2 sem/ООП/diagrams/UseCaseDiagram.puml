@@ -1,0 +1,52 @@
+@startuml
+left to right direction
+
+actor User
+rectangle InstagramApp {
+    (Register)
+    (Login)
+    (View Profile)
+    (Edit Profile)
+    (Create Post)
+    (Like Post)
+    (Comment Post)
+    (Create Story)
+    (Like Story)
+    (Upload Photo)
+
+    (Register) .> (Login) : <<extend>>
+    (Create Post) .> (Upload Photo) : <<include>>
+    (Create Story) .> (Upload Photo) : <<include>>
+}
+
+rectangle ServiceActions {
+    (Update)
+
+    (Edit Profile) .> (Update) : <<include>>
+    (Like Post) .> (Update) : <<include>>
+    (Like Story) .> (Update) : <<include>>
+    (Comment Post) .> (Update) : <<include>>
+}
+
+actor FirebaseAuthentication <<service>>
+actor StorageService <<service>>
+
+User --> (Register)
+User --> (Login)
+User --> (View Profile)
+User --> (Edit Profile)
+User --> (Create Post)
+User --> (Like Post)
+User --> (Comment Post)
+User --> (Create Story)
+User --> (Like Story)
+
+(Upload Photo) --> (Update) : <<include>>
+
+(Register) <-- FirebaseAuthentication
+(Login) <-- FirebaseAuthentication
+
+(View Profile) <-- StorageService
+(Update) --> StorageService
+
+@enduml

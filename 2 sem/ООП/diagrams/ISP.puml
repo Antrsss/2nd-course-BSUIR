@@ -1,0 +1,33 @@
+@startuml diagram
+top to bottom direction
+
+actor Пользователь
+
+usecase "Управление коктейлями" as UC1
+usecase "Управление ингредиентами" as UC2
+usecase "Добавление коктейля" as UC3
+usecase "Редактирование коктейля" as UC4
+usecase "Удаление коктейля" as UC5
+usecase "Добавление ингредиента" as UC6
+usecase "Редактирование ингредиента" as UC7
+usecase "Удаление ингредиента" as UC8
+usecase "Выбор коктейля" as UC9
+usecase "Просмотр коктейля" as UC10
+usecase "Просмотр ингредиентов" as UC11
+
+Пользователь --> UC1
+Пользователь --> UC2
+Пользователь --> UC9
+Пользователь --> UC10
+Пользователь --> UC11
+
+UC3 --> UC1 : <<extend>>
+UC4 --> UC1 : <<extend>>
+UC5 --> UC1 : <<extend>>
+UC6 --> UC2 : <<extend>>
+UC7 --> UC2 : <<extend>>
+UC8 --> UC2 : <<extend>>
+UC10 --> UC9 : <<include>>
+UC11 --> UC9 : <<include>>
+
+@enduml

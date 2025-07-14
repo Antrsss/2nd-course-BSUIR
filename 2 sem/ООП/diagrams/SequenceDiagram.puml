@@ -1,0 +1,66 @@
+@startuml
+actor User
+
+participant PostViewModel
+participant PostRepository
+participant PostApiService
+participant Post
+
+participant StoryViewModel
+participant StoryRepository
+participant StoryApiService
+participant Story
+
+participant UserViewModel
+participant UserRepository
+participant UserApiService
+participant User
+
+participant CommentViewModel
+participant CommentRepository
+participant CommentApiService
+participant Comment
+
+User -> PostViewModel : createPost(post)
+PostViewModel -> PostRepository : createPost(post)
+PostRepository -> PostApiService : createPost()
+PostApiService -> PostRepository : post created
+PostRepository -> PostViewModel : post created
+PostViewModel -> User : post created
+
+User -> PostViewModel : likePost(postId)
+PostViewModel -> PostRepository : likePost(postId)
+PostRepository -> PostApiService : addLike(postId)
+PostApiService -> PostRepository : like added
+PostRepository -> PostViewModel : like added
+PostViewModel -> User : like successful
+
+User -> StoryViewModel : createStory(story)
+StoryViewModel -> StoryRepository : createStory(story)
+StoryRepository -> StoryApiService : createStory()
+StoryApiService -> StoryRepository : story created
+StoryRepository -> StoryViewModel : story created
+StoryViewModel -> User : story created
+
+User -> UserViewModel : registerUser(userData)
+UserViewModel -> UserRepository : registerUser(userData)
+UserRepository -> UserApiService : registerUser()
+UserApiService -> UserRepository : user registered
+UserRepository -> UserViewModel : registration successful
+UserViewModel -> User : registration successful
+
+User -> CommentViewModel : createComment(comment)
+CommentViewModel -> CommentRepository : createComment(comment)
+CommentRepository -> CommentApiService : createComment()
+CommentApiService -> CommentRepository : comment created
+CommentRepository -> CommentViewModel : comment created
+CommentViewModel -> User : comment added
+
+User -> PostViewModel : getPostsByUser(userId)
+PostViewModel -> PostRepository : getPostsByUser(userId)
+PostRepository -> PostApiService : getPostsByUser()
+PostApiService -> PostRepository : posts fetched
+PostRepository -> PostViewModel : posts returned
+PostViewModel -> User : posts returned
+
+@enduml

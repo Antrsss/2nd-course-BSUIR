@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KotlinHalsteadMetrics.MainPage"
+             Title="Метрики Холстеда">
+
+    <StackLayout>
+        <ScrollView
+            VerticalOptions="Start"
+            HeightRequest="700"
+            BackgroundColor="Blue">
+
+            <Grid 
+                VerticalOptions="Fill"
+                x:Name="MetricsGrid" 
+                Margin="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Заголовки таблицы -->
+                <Label Text="Операторы" Grid.Row="0" Grid.Column="0" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="f₁" Grid.Row="0" Grid.Column="1" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="η₁" Grid.Row="0" Grid.Column="2" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="N₁" Grid.Row="0" Grid.Column="3" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="Операнды" Grid.Row="0" Grid.Column="4" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="f₂" Grid.Row="0" Grid.Column="5" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="η₂" Grid.Row="0" Grid.Column="6" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="N₂" Grid.Row="0" Grid.Column="7" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="η" Grid.Row="0" Grid.Column="8" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="N" Grid.Row="0" Grid.Column="9" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="V" Grid.Row="0" Grid.Column="10" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+
+                <!-- Значения метрик -->
+                <Label x:Name="UniqueOperators" Text="0" Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Center" />
+                <Label x:Name="TotalOperators" Text="0" Grid.Row="1" Grid.Column="3" HorizontalTextAlignment="Center" />
+                <Label x:Name="UniqueOperands" Text="0" Grid.Row="1" Grid.Column="6" HorizontalTextAlignment="Center" />
+                <Label x:Name="TotalOperands" Text="0" Grid.Row="1" Grid.Column="7" HorizontalTextAlignment="Center" />
+                <Label x:Name="ProgramVocabulary" Text="0" Grid.Row="1" Grid.Column="8" HorizontalTextAlignment="Center" />
+                <Label x:Name="ProgramLength" Text="0" Grid.Row="1" Grid.Column="9" HorizontalTextAlignment="Center" />
+                <Label x:Name="ProgramVolume" Text="0" Grid.Row="1" Grid.Column="10" HorizontalTextAlignment="Center" />
+            </Grid>
+        </ScrollView>
+
+        <Button
+            Text="Вычислить метрики"
+            FontSize="Medium"
+            HorizontalOptions="Center"
+            VerticalOptions="End"
+            Clicked="OnCalculateMetricsBtnClicked"/>
+    </StackLayout>
+
+</ContentPage>

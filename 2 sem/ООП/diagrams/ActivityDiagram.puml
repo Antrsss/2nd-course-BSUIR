@@ -1,0 +1,68 @@
+@startuml
+' https://plantuml.com/activity-diagram-beta
+
+start
+
+:Open application;
+
+if (Is user authenticated?) then (yes)
+    :Navigate to user profile;
+else (no)
+    :Show welcome screen;
+    if (User chooses to register?) then (yes)
+        :Enter email, username, password;
+        :Call UserViewModel.registerUser;
+        :Navigate to user profile;
+    else (Login)
+        :Enter username, password;
+        :Call UserViewModel.authorizeUser;
+        if (Login successful?) then (yes)
+            :Navigate to user profile;
+        else
+            :Show login error;
+            stop
+        endif
+    endif
+endif
+
+partition "User Profile" {
+    :View profile info;
+    if (Edit profile?) then (yes)
+        :Edit name, bio, website, privacy;
+        :Call UserviewModel.editName / editBio / editWebsite / changePrivacy;
+    endif
+}
+
+partition "Posts" {
+    if (Create post?) then (yes)
+        :Enter description and upload photo(s);
+        :Call PostViewModel.createPost;
+    endif
+
+    if (Like post?) then (yes)
+        :Select a post;
+        :Call PostViewModel.likePost;
+    endif
+
+    if (Add comment?) then (yes)
+        :Write comment text;
+        :Call CommentViewModel.createComment;
+    endif
+}
+
+partition "Stories" {
+    if (Create story?) then (yes)
+        :Upload a photo;
+        :Call StoryViewModel.createStory;
+    endif
+
+    if (Like story?) then (yes)
+        :Select a story;
+        :Call StoryViewModel.addLike;
+    endif
+}
+
+:User continues using the app;
+
+stop
+@enduml

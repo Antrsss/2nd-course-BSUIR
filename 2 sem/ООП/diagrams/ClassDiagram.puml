@@ -1,0 +1,160 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+rectangle Models {
+    class User {
+        val userId: UUID
+        val username: String
+        val password: String
+        val email: String?
+        val photoUrl: String?
+        val name: String?
+        val bio: String?
+        val website: String?
+        val isPrivate: Boolean
+    }
+
+    class Post {
+        val postId: UUID
+        val authorId: UUID
+        val photoUrls: List<String>
+        val description: String
+        val creationTime: DateTime
+        val likes: Int
+    }
+
+    class Story {
+        val storyId: UUID
+        val authorId: UUID
+        val photoUrl: String
+        val likes: Int
+        val creationTime: DateTime
+        val expirationTime: DateTime
+        val isVisible: Boolean
+    }
+
+    class Comment {
+        val commentId: UUID
+        val postId: UUID
+        val authorId: UUID
+        val authorUsername: String
+        val text: String
+        val likes: Int
+        val creationTime: DateTime
+    }
+}
+
+rectangle ApiServices {
+    interface PostApiService {
+        fun createPost()
+        fun getUserPosts()
+        fun deletePost()
+        fun addLike()
+        fun saveToBookmark()
+        fun addComment()
+    }
+
+    interface StoryApiService {
+        fun createStory()
+        fun deleteStory()
+        fun getUserActiveStories()
+        fun getUserArchivedStories()
+        fun getAllUserStories()
+        fun addLike()
+    }
+
+    interface UserApiService {
+        fun registerUser()
+        fun authorizeUser()
+        fun deleteUser()
+        fun changeUserEmail()
+        fun changeUsername()
+
+        fun editName()
+        fun editBio()
+        fun editWebsite()
+        fun changePrivacy()
+    }
+
+    interface CommentApiService {
+        fun createComment()
+        fun editComment()
+        fun deleteComment()
+        fun likeComment()
+    }
+}
+
+rectangle Repositories {
+    class PostRepository {
+        - postApiService: PostApiService
+        + PostRepository(postApiService: PostApiService)
+    }
+
+    class StoryRepository {
+        - storyApiService: StoryApiService
+        + StoryRepository(storyApiService: StoryApiService)
+    }
+
+    class UserRepository {
+        - userApiService: UserApiService
+        + UserRepository(userApiService: UserApiService)
+    }
+
+    class CommentRepository {
+        - commentApiService: CommentApiService
+        + CommentRepository(commentApiService: CommentApiService)
+    }
+}
+
+rectangle ViewModels {
+    class PostViewModel {
+        - postRepository: PostRepository
+        + PostViewModel(postRepository: PostRepository)
+        + createPost(post: Post): Flow<Result<Post>>
+        + getPostsByUser(userId: UUID): Flow<List<Post>>
+        + likePost(postId: UUID): Flow<Result<Unit>>
+    }
+
+    class StoryViewModel {
+        - storyRepository: StoryRepository
+        + StoryViewModel(storyRepository: StoryRepository)
+    }
+
+    class UserViewModel {
+        - userRepository: UserRepository
+        + UserViewModel(userRepository: UserRepository)
+    }
+
+    class CommentViewModel {
+        - commentRepository: CommentRepository
+        + CommentViewModel(commentRepository: CommentRepository)
+    }
+}
+
+User "1" -- "*" Post
+User "1" -- "*" Story
+User "1" -- "*" Comment
+
+Post "1" -- "*" Comment
+Story "1" -- "*" Comment
+
+PostRepository --> PostApiService
+StoryRepository --> StoryApiService
+UserRepository --> UserApiService
+CommentRepository --> CommentApiService
+
+PostRepository --> Post
+PostRepository --> User
+StoryRepository --> Story
+StoryRepository --> User
+UserRepository --> User
+CommentRepository --> Comment
+CommentRepository --> User
+CommentRepository --> Post
+
+PostViewModel --> PostRepository
+StoryViewModel --> StoryRepository
+UserViewModel --> UserRepository
+CommentViewModel --> CommentRepository
+
+@enduml

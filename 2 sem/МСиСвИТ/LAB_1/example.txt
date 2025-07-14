@@ -1,0 +1,84 @@
+data class Task(val id: Int, var description: String, var isCompleted: Boolean = false)
+
+class ToDoList {
+    private val tasks = mutableListOf<Task>()
+    private var nextId = 1
+
+    fun addTask(description: String) {
+        val task = Task(nextId++, description)
+        tasks.add(task)
+        println("Задача добавлена: ${task.description}")
+    }
+
+    fun completeTask(id: Int) {
+        val task = tasks.find { it.id == id }
+        if (task != null) {
+            task.isCompleted = true
+            println("Задача выполнена: ${task.description}")
+        } else {
+            println("Задача с ID $id не найдена.")
+        }
+    }
+
+    fun deleteTask(id: Int) {
+        val task = tasks.find { it.id == id }
+        if (task != null) {
+            tasks.remove(task)
+            println("Задача удалена: ${task.description}")
+        } else {
+            println("Задача с ID $id не найдена.")
+        }
+    }
+
+    fun showTasks() {
+        if (tasks.isEmpty()) {
+            println("Список задач пуст.")
+        } else {
+            println("Список задач:")
+            tasks.forEach { task ->
+                val status = if (task.isCompleted) "Выполнена" else "Не выполнена"
+                println("${task.id}. ${task.description} - $status")
+            }
+        }
+    }
+}
+
+fun main() {
+    val toDoList = ToDoList()
+
+    while (true) {
+        println("\nВыберите действие:")
+        println("1. Добавить задачу")
+        println("2. Отметить задачу как выполненную")
+        println("3. Удалить задачу")
+        println("4. Показать все задачи")
+        println("5. Выйти")
+
+        when (readLine()?.toIntOrNull()) {
+            1 -> {
+                println("Введите описание задачи:")
+                val description = readLine() ?: ""
+                toDoList.addTask(description)
+            }
+            2 -> {
+                println("Введите ID задачи для отметки как выполненной:")
+                val id = readLine()?.toIntOrNull() ?: 0
+                toDoList.completeTask(id)
+            }
+            3 -> {
+                println("Введите ID задачи для удаления:")
+                val id = readLine()?.toIntOrNull() ?: 0
+                toDoList.deleteTask(id)
+            }
+            4 -> toDoList.showTasks()
+            5 -> {
+                println("Выход из программы.")
+                return
+            }
+            else -> println("Неверный выбор. Пожалуйста, выберите действие от 1 до 5.")
+        }
+remove()
+val mum = (1 + 5) / 2
+remove()
+    }
+}

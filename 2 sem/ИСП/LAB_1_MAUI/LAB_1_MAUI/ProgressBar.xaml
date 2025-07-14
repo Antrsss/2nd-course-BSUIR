@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LAB_1_MAUI.IntegralProgressBar"
+             Title="ProgressBar"
+             WidthRequest="350"
+             HeightRequest="550"
+             BackgroundColor="White">
+
+    <VerticalStackLayout
+        WidthRequest="350"
+        HeightRequest="450"
+        Spacing="40"
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
+        
+        <Label 
+            x:Name="status_label"
+            Text="Welcome to .NET MAUI!"
+            FontSize="Body"
+            TextColor="Black"
+            VerticalOptions="Start" 
+            HorizontalOptions="Center" />
+        
+        <ProgressBar
+            x:Name="progress_bar"
+            Progress="0"
+            ProgressColor="DarkViolet"
+            BackgroundColor="Gray"
+            WidthRequest="240"
+            HeightRequest="24"
+            HorizontalOptions="Center"/>
+        
+        <Label
+            x:Name="percent_label"
+            Text="0%"
+            TextColor="Black"
+            FontSize="Default"
+            HorizontalOptions="Center"/>
+
+        <HorizontalStackLayout
+            HorizontalOptions="Center"
+            Spacing="8">
+            
+            <Button
+                x:Name="start_btn"
+                Text="Start"
+                Clicked="OnStartButtonClicked"/>
+            <Button
+                x:Name="cancel_btn"
+                Text="Cancel"
+                Clicked="OnCancelButtonClicked"
+                IsEnabled="False"/>
+        </HorizontalStackLayout>
+            
+    </VerticalStackLayout>
+</ContentPage>
