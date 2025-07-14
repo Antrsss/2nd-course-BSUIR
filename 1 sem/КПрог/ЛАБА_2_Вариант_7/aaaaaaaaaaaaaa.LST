@@ -1,0 +1,17 @@
+  ADDR B1 B2 B3 B4 thrass11.tmp                                     PAGE       1
+
+                    org $8000
+
+  8000 3F           swi
+  8001 CE 00 02     ldx #2
+
+                    org $fff6
+  FFF6 FF F8        fdb ways
+
+                   ways:
+  FFF8 CE 00 00     ldx #0
+  FFFB 3B           rti
+
+  Symbol Table 
+
+  WAYS               FFF8

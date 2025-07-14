@@ -1,0 +1,61 @@
+  ADDR B1 B2 B3 B4 thrass11.tmp                                     PAGE       1
+
+                    org $8000
+
+                   ; +
+  8000 CE 82 00     ldx #$8200
+  8003 C6 0A        ldab #10
+  8005 E7 01        stab 1,x
+  8007 C6 0B        ldab #11
+  8009 E7 02        stab 2,x
+  800B C6 0C        ldab #12
+  800D E7 05        stab 5,x
+
+                   ;
+  800F 86 03        ldaa #3
+  8011 B7 FF F1     staa $fff1
+  8014 C6 00        ldab #0
+  8016 F7 FF F0     stab $fff0
+
+                   ; +
+                   loop:
+  8019 E6 00        ldab 0,x
+  801B 08           inx
+  801C 5D           tstb
+  801D 2B FA        bmi loop
+  801F 27 F8        beq loop
+  8021 37           pshb
+  8022 C6 00        ldab #0
+  8024 37           pshb
+  8025 4A           deca
+  8026 81 00        cmpa #0
+  8028 26 EF        bne loop
+
+                   ;
+  802A 18 FE FF F0  ldy $fff0
+  802E CC 00 00     ldd #0
+
+                   ;
+                   loop2:
+  8031 38           pulx
+  8032 FF FF 00     stx $ff00
+  8035 F3 FF 00     addd $ff00
+  8038 18 09        dey
+
+  803A 18 8C 00 00  cmpy #0
+  803E 26 F1        bne loop2
+
+                   ;
+  8040 18 8F        xgdy
+
+
+
+
+
+
+
+
+  Symbol Table 
+
+  LOOP2              8031
+  LOOP               8019

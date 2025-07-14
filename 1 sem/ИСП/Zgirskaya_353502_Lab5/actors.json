@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Alan",
+    "Age": 18,
+    "Character": {
+      "CharacterName": "Tom",
+      "Film": "Tom Sawyer"
+    }
+  },
+  {
+    "Name": "Jerry",
+    "Age": 34,
+    "Character": {
+      "CharacterName": "Andrey Bolkonsky",
+      "Film": "War and piece"
+    }
+  },
+  {
+    "Name": "Ann",
+    "Age": 25,
+    "Character": {
+      "CharacterName": "Jane Eyre",
+      "Film": "Jane Eyre"
+    }
+  },
+  {
+    "Name": "Helga",
+    "Age": 41,
+    "Character": {
+      "CharacterName": "Anna Karenina",
+      "Film": "Anna Karenina"
+    }
+  },
+  {
+    "Name": "Jack",
+    "Age": 29,
+    "Character": {
+      "CharacterName": "Rodion Raskolnicov",
+      "Film": "Crime and punishment"
+    }
+  }
+]

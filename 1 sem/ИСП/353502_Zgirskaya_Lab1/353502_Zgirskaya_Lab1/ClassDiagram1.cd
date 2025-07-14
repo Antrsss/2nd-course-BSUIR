@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_353502_Zgirskaya_Lab1.Collections.MyCustomCollection&lt;T&gt;">
+    <Position X="4.5" Y="1" Width="2" />
+    <NestedTypes>
+      <Class Name="_353502_Zgirskaya_Lab1.Collections.MyCustomCollection&lt;T&gt;.CollectionElement" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Collections\MyCustomCollection.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AkIABAAAAAAABAAACACABAQAAAgAgAAAAACAAAAAAAA=</HashCode>
+      <FileName>Collections\MyCustomCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_353502_Zgirskaya_Lab1.Entities.Client&lt;T&gt;">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAEAAAAAEAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ClientTariffs" />
+      <Field Name="ClientTraffics" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_353502_Zgirskaya_Lab1.Entities.InternetProvider&lt;T&gt;">
+    <Position X="8" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAgAACACAAAAAAAAAAAAIAAAAAACGAAAAA=</HashCode>
+      <FileName>Entities\InternetProvider.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_clients" />
+      <Field Name="_tariffs" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="_353502_Zgirskaya_Lab1.Contracts.IInternetOperator&lt;T&gt;">
+    <Position X="8" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAgAACACAAAAAAAAAAAAAAAAAAACEAAAAA=</HashCode>
+      <FileName>Contracts\IInternetOperator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="_353502_Zgirskaya_Lab1.Interfaces.ICustomCollection&lt;T&gt;">
+    <Position X="4.5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAAAABAAACACABAQAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICustomCollection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

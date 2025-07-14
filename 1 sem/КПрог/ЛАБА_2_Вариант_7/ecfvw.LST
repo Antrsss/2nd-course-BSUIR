@@ -1,0 +1,8 @@
+  ADDR B1 B2 B3 B4 thrass11.tmp                                     PAGE       1
+
+                    org $8000
+
+  8000 86 81        ldaa #%10000001
+  8002 C6 FF        ldab #%11111111
+  8004 F7 81 00     stab $8100
+  8007 B8 81 00     eora $8100

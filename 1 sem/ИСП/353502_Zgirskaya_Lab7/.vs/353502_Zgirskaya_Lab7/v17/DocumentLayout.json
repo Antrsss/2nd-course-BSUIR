@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zgdas\\OneDrive\\Documents\\2 \u043A\u0443\u0440\u0441\\\u0418\u0421\u041F\\353502_Zgirskaya_Lab7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBEA310-CE1F-44CE-BC08-5649D5414713}|353502_Zgirskaya_Lab7\\353502_Zgirskaya_Lab7.csproj|c:\\users\\zgdas\\onedrive\\documents\\2 \u043A\u0443\u0440\u0441\\\u0438\u0441\u043F\\353502_zgirskaya_lab7\\353502_zgirskaya_lab7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBEA310-CE1F-44CE-BC08-5649D5414713}|353502_Zgirskaya_Lab7\\353502_Zgirskaya_Lab7.csproj|solutionrelative:353502_zgirskaya_lab7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B4D317-116C-430D-ADD9-71F2A394A521}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\zgdas\\onedrive\\documents\\2 \u043A\u0443\u0440\u0441\\\u0438\u0441\u043F\\353502_zgirskaya_lab7\\classlibrary\\integralcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B4D317-116C-430D-ADD9-71F2A394A521}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\integralcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B4D317-116C-430D-ADD9-71F2A394A521}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\zgdas\\onedrive\\documents\\2 \u043A\u0443\u0440\u0441\\\u0438\u0441\u043F\\353502_zgirskaya_lab7\\classlibrary\\classlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{42B4D317-116C-430D-ADD9-71F2A394A521}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\classlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassLibrary",
+              "DocumentMoniker": "C:\\Users\\zgdas\\OneDrive\\Documents\\2 \u043A\u0443\u0440\u0441\\\u0418\u0421\u041F\\353502_Zgirskaya_Lab7\\ClassLibrary\\ClassLibrary.csproj",
+              "RelativeDocumentMoniker": "ClassLibrary\\ClassLibrary.csproj",
+              "ToolTip": "C:\\Users\\zgdas\\OneDrive\\Documents\\2 \u043A\u0443\u0440\u0441\\\u0418\u0421\u041F\\353502_Zgirskaya_Lab7\\ClassLibrary\\ClassLibrary.csproj",
+              "RelativeToolTip": "ClassLibrary\\ClassLibrary.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-28T11:06:45.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IntegralCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\OneDrive\\Documents\\2 \u043A\u0443\u0440\u0441\\\u0418\u0421\u041F\\353502_Zgirskaya_Lab7\\ClassLibrary\\IntegralCalculator.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\IntegralCalculator.cs",
+              "ToolTip": "C:\\Users\\zgdas\\OneDrive\\Documents\\2 \u043A\u0443\u0440\u0441\\\u0418\u0421\u041F\\353502_Zgirskaya_Lab7\\ClassLibrary\\IntegralCalculator.cs",
+              "RelativeToolTip": "ClassLibrary\\IntegralCalculator.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwDAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T11:06:36.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\OneDrive\\Documents\\2 \u043A\u0443\u0440\u0441\\\u0418\u0421\u041F\\353502_Zgirskaya_Lab7\\353502_Zgirskaya_Lab7\\Program.cs",
+              "RelativeDocumentMoniker": "353502_Zgirskaya_Lab7\\Program.cs",
+              "ToolTip": "C:\\Users\\zgdas\\OneDrive\\Documents\\2 \u043A\u0443\u0440\u0441\\\u0418\u0421\u041F\\353502_Zgirskaya_Lab7\\353502_Zgirskaya_Lab7\\Program.cs",
+              "RelativeToolTip": "353502_Zgirskaya_Lab7\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:33:38.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

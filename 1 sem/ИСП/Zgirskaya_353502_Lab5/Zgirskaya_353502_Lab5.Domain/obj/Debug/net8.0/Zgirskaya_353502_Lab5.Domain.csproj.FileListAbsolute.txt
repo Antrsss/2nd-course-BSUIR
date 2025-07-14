@@ -1,0 +1,22 @@
+C:\Users\zgdas\source\repos\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\bin\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.deps.json
+C:\Users\zgdas\source\repos\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\bin\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.dll
+C:\Users\zgdas\source\repos\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\bin\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.pdb
+C:\Users\zgdas\source\repos\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zgdas\source\repos\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.AssemblyInfoInputs.cache
+C:\Users\zgdas\source\repos\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.AssemblyInfo.cs
+C:\Users\zgdas\source\repos\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zgdas\source\repos\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.dll
+C:\Users\zgdas\source\repos\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\refint\Zgirskaya_353502_Lab5.Domain.dll
+C:\Users\zgdas\source\repos\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.pdb
+C:\Users\zgdas\source\repos\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\ref\Zgirskaya_353502_Lab5.Domain.dll
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\bin\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.deps.json
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\bin\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.dll
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\bin\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.pdb
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.AssemblyInfoInputs.cache
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.AssemblyInfo.cs
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.dll
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\refint\Zgirskaya_353502_Lab5.Domain.dll
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\Zgirskaya_353502_Lab5.Domain.pdb
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\Zgirskaya_353502_Lab5\Zgirskaya_353502_Lab5.Domain\obj\Debug\net8.0\ref\Zgirskaya_353502_Lab5.Domain.dll

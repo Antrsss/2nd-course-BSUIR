@@ -1,0 +1,15 @@
+  ADDR B1 B2 B3 B4 C:\Users\zgdas\OneDrive\Documents\2 курс\КПрог\  PAGE       1
+
+                    org $8000
+
+  8000 86 12        ldaa #$12
+  8002 CE 34 56     ldx #$3456
+
+  8005 B7 FF 00     staa $ff00
+  8008 FF FF 01     stx $ff01
+
+  800B B6 FF 02     ldaa $ff02
+
+  800E F6 FF 00     ldab $ff00
+  8011 F7 FF 02     stab $ff02
+  8014 FE FF 01     ldx $ff01

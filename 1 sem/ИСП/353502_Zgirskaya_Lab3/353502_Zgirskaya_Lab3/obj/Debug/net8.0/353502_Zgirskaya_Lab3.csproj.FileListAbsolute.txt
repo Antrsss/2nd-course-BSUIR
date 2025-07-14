@@ -1,0 +1,14 @@
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\obj\Debug\net8.0\353502_Zgirskaya_Lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\obj\Debug\net8.0\353502_Zgirskaya_Lab3.AssemblyInfoInputs.cache
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\obj\Debug\net8.0\353502_Zgirskaya_Lab3.AssemblyInfo.cs
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\obj\Debug\net8.0\353502_Zgirskaya_Lab3.csproj.CoreCompileInputs.cache
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\bin\Debug\net8.0\353502_Zgirskaya_Lab3.exe
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\bin\Debug\net8.0\353502_Zgirskaya_Lab3.deps.json
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\bin\Debug\net8.0\353502_Zgirskaya_Lab3.runtimeconfig.json
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\bin\Debug\net8.0\353502_Zgirskaya_Lab3.dll
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\bin\Debug\net8.0\353502_Zgirskaya_Lab3.pdb
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\obj\Debug\net8.0\353502_Zgirskaya_Lab3.dll
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\obj\Debug\net8.0\refint\353502_Zgirskaya_Lab3.dll
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\obj\Debug\net8.0\353502_Zgirskaya_Lab3.pdb
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\obj\Debug\net8.0\353502_Zgirskaya_Lab3.genruntimeconfig.cache
+C:\Users\zgdas\source\repos\353502_Zgirskaya_Lab3\353502_Zgirskaya_Lab3\obj\Debug\net8.0\ref\353502_Zgirskaya_Lab3.dll

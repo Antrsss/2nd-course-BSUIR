@@ -1,0 +1,14 @@
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\bin\Debug\net8.0\353502_Zgirskaya_Lab6.exe
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\bin\Debug\net8.0\353502_Zgirskaya_Lab6.deps.json
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\bin\Debug\net8.0\353502_Zgirskaya_Lab6.runtimeconfig.json
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\bin\Debug\net8.0\353502_Zgirskaya_Lab6.dll
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\bin\Debug\net8.0\353502_Zgirskaya_Lab6.pdb
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\obj\Debug\net8.0\353502_Zgirskaya_Lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\obj\Debug\net8.0\353502_Zgirskaya_Lab6.AssemblyInfoInputs.cache
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\obj\Debug\net8.0\353502_Zgirskaya_Lab6.AssemblyInfo.cs
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\obj\Debug\net8.0\353502_Zgirskaya_Lab6.csproj.CoreCompileInputs.cache
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\obj\Debug\net8.0\353502_Zgirskaya_Lab6.dll
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\obj\Debug\net8.0\refint\353502_Zgirskaya_Lab6.dll
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\obj\Debug\net8.0\353502_Zgirskaya_Lab6.pdb
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\obj\Debug\net8.0\353502_Zgirskaya_Lab6.genruntimeconfig.cache
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\obj\Debug\net8.0\ref\353502_Zgirskaya_Lab6.dll

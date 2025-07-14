@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab7\353502_Zgirskaya_Lab7</BaseOutputPath>
+  </PropertyGroup>
+
+</Project>

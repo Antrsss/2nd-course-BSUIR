@@ -1,0 +1,5 @@
+1Lagguage: name = bag, weight = 10, safety = True
+2Lagguage: name = case, weight = 5, safety = False
+5Lagguage: name = suitcase, weight = 3, safety = True
+3Lagguage: name = packet, weight = 1, safety = True
+1Lagguage: name = bag, weight = 4, safety = False

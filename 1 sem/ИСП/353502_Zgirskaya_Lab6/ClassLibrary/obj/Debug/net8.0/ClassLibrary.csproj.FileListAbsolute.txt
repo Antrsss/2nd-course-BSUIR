@@ -1,0 +1,16 @@
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\ClassLibrary\obj\Debug\net8.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\ClassLibrary\obj\Debug\net8.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\ClassLibrary\obj\Debug\net8.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\ClassLibrary\obj\Debug\net8.0\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\Debug\net8.0\353502_Zgirskaya_Lab6.deps.json
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\Debug\net8.0\353502_Zgirskaya_Lab6.runtimeconfig.json
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\Debug\net8.0\353502_Zgirskaya_Lab6.exe
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\Debug\net8.0\ClassLibrary.deps.json
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\Debug\net8.0\ClassLibrary.dll
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\353502_Zgirskaya_Lab6\Debug\net8.0\ClassLibrary.pdb
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\ClassLibrary\obj\Debug\net8.0\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\ClassLibrary\obj\Debug\net8.0\ClassLib.939BCD28.Up2Date
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\ClassLibrary\obj\Debug\net8.0\ClassLibrary.dll
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\ClassLibrary\obj\Debug\net8.0\refint\ClassLibrary.dll
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\ClassLibrary\obj\Debug\net8.0\ClassLibrary.pdb
+C:\Users\zgdas\OneDrive\Documents\2 курс\ИСП\353502_Zgirskaya_Lab6\ClassLibrary\obj\Debug\net8.0\ref\ClassLibrary.dll

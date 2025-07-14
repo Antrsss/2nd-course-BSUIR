@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfActor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Actor>
+    <Name>Alan</Name>
+    <Age>18</Age>
+    <Character>
+      <CharacterName>Tom</CharacterName>
+      <Film>Tom Sawyer</Film>
+    </Character>
+  </Actor>
+  <Actor>
+    <Name>Jerry</Name>
+    <Age>34</Age>
+    <Character>
+      <CharacterName>Andrey Bolkonsky</CharacterName>
+      <Film>War and piece</Film>
+    </Character>
+  </Actor>
+  <Actor>
+    <Name>Ann</Name>
+    <Age>25</Age>
+    <Character>
+      <CharacterName>Jane Eyre</CharacterName>
+      <Film>Jane Eyre</Film>
+    </Character>
+  </Actor>
+  <Actor>
+    <Name>Helga</Name>
+    <Age>41</Age>
+    <Character>
+      <CharacterName>Anna Karenina</CharacterName>
+      <Film>Anna Karenina</Film>
+    </Character>
+  </Actor>
+  <Actor>
+    <Name>Jack</Name>
+    <Age>29</Age>
+    <Character>
+      <CharacterName>Rodion Raskolnicov</CharacterName>
+      <Film>Crime and punishment</Film>
+    </Character>
+  </Actor>
+</ArrayOfActor>
